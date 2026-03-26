@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react'
 import { alphabet } from '../utils/const'
-import CipherPanel from './Cipherpanel'
+import CipherPanel from './cipher-panel'
 
 const Decode = () => {
   const [inputText, setInputText] = useState('')

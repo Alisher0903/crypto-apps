@@ -1,7 +1,14 @@
-import CipherPage from './pages/cipher-page'
+import Layout from './components/layout/layout'
 
 const App = () => {
-  return <CipherPage />
+  return (
+    <Layout>
+      {(route) => {
+        const PageComponent = route.component
+        return <PageComponent />
+      }}
+    </Layout>
+  )
 }
 
 export default App

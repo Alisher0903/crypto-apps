@@ -1,4 +1,4 @@
-import type { AppRoute } from '../../router/route'
+import type { AppRoute } from '../../router/routes'
 
 interface SidebarProps {
   routes: AppRoute[]

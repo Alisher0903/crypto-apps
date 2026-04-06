@@ -1,6 +1,6 @@
 import type { ComponentType } from 'react'
-import CaesarPage from '../pages/caesar/caesar-cipher'
-import Base64Page from '../pages/base64/base64-page'
+import CaesarPage from '../pages/caesar/CaesarPage'
+import Base64Page from '../pages/base64/Base64Page'
 
 export interface AppRoute {
   id: string

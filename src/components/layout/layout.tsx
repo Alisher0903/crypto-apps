@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import type { ReactNode } from 'react'
-import { defaultRoute, routes, type AppRoute } from '../../router/route'
+import { defaultRoute, routes, type AppRoute } from '../../router/routes'
 import Sidebar from './sidebar'
 
 interface LayoutProps {
